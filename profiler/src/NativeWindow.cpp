@@ -8,6 +8,7 @@
 #elif defined __linux__
 #  ifdef DISPLAY_SERVER_X11
 #    define GLFW_EXPOSE_NATIVE_X11
+#    define GLFW_EXPOSE_NATIVE_GLX
 #  elif defined DISPLAY_SERVER_WAYLAND
 #    define GLFW_EXPOSE_NATIVE_WAYLAND
 #  else
